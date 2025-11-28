@@ -1,3 +1,5 @@
+'''
+
 import requests
 from alphagenome import colab_utils
 from alphagenome.data import gene_annotation
@@ -20,3 +22,5 @@ output = v.predict_sequence(sequence='GATTACA'.center(
 )
 
 print(output)
+
+'''
